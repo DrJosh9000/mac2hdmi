@@ -1,0 +1,20 @@
+name: xc7
+channels:
+  - litex-hub
+dependencies:
+  - litex-hub::openocd=0.10.0_1514_ga8edbd020=20201119_154304
+  - litex-hub::prjxray-tools=0.1_2942_g5349556b=20220114_081711
+  - litex-hub::gcc-riscv64-elf-newlib=9.2.0=20201119_154229
+  - litex-hub::prjxray-db=0.0_257_g0a0adde=20220114_081711
+  - litex-hub::vtr-optimized=8.0.0_5105_g116f30cb8=20220114_081711
+  - litex-hub::yosys=0.13_4_g61324cf55=20220114_081711_py37
+  - litex-hub::symbiflow-yosys-plugins=1.0.0_7_599_gdb3a9c7=20220114_081711
+  - make
+  - lxml
+  - simplejson
+  - intervaltree
+  - git
+  - pip
+  # Packages installed from PyPI
+  - pip:
+    - -r requirements.txt

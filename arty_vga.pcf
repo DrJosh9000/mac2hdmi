@@ -1,0 +1,48 @@
+# 100 MHz CLK
+set_io CLK E3
+
+set_io RST_BTN C2
+
+# PmodVGA attached to JB & JC
+set_io VGA_HS U14
+set_io VGA_VS V14
+set_io VGA_R[0] E15
+set_io VGA_R[1] E16
+set_io VGA_R[2] D15
+set_io VGA_R[3] C15
+set_io VGA_G[0] U12
+set_io VGA_G[1] V12
+set_io VGA_G[2] V10
+set_io VGA_G[3] V11
+set_io VGA_B[0] J17
+set_io VGA_B[1] J18
+set_io VGA_B[2] K15
+set_io VGA_B[3] J15
+
+# plain LEDs
+set_io LED[0] H5
+set_io LED[1] J5
+set_io LED[2] T9
+set_io LED[3] T10
+
+# Buttons
+set_io BTN[0] D9
+set_io BTN[1] C9
+set_io BTN[2] B9
+set_io BTN[3] B8
+
+# chipkit IOs
+set_io CK_IO[0] V15
+set_io CK_IO[1] U16
+set_io CK_IO[2] P14
+set_io CK_IO[3] T11
+set_io CK_IO[4] R12
+set_io CK_IO[5] T14
+set_io CK_IO[6] T15
+set_io CK_IO[7] T16
+set_io CK_IO[8] N15
+set_io CK_IO[9] M16
+set_io CK_IO[10] V17
+set_io CK_IO[11] U18
+set_io CK_IO[12] R17
+set_io CK_IO[13] P17

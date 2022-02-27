@@ -1,0 +1,1 @@
+openocd -f config/digilent_arty.cfg -c "init; pld load 0 build/arty_35/top.bit; exit"
