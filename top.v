@@ -136,8 +136,8 @@ module top(
     // Use the buttons to adjust the clock and the sample offset.
     wire [3:0] btn_val, btn_strb;
     debounce #(
-        DEBOUNCE_TIME = 400_000,
-        BUTTONS = 4,
+        .DEBOUNCE_TIME(400_000),
+        .BUTTONS(4),
     )
     debounce (
         .clk(clk),
